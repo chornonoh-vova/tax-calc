@@ -1,0 +1,16 @@
+{
+  "title": "Tax calculator",
+  "languageSelector": "Language:",
+  "languages": {
+    "english": "English",
+    "ukrainian": "Ukrainian"
+  },
+  "continue": "Continue",
+  "setup": {
+    "name": "Report name",
+    "targetCurrency": "Target currency",
+    "leftover": "Leftover from the previous period",
+    "armyTax": "Army tax",
+    "incomeTax": "Income tax"
+  }
+}
