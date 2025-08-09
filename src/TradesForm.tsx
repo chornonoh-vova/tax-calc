@@ -70,7 +70,7 @@ export function TradesForm() {
             <Input
               id={`trades.${index}.buyPrice`}
               label="Buy price"
-              type="number"
+              type="text"
               error={errors.trades?.[index]?.buyPrice?.message}
               required
               {...register(`trades.${index}.buyPrice`, {
@@ -81,7 +81,7 @@ export function TradesForm() {
             <Input
               id={`trades.${index}.buyExchangeRate`}
               label="Buy rate"
-              type="number"
+              type="text"
               error={errors.trades?.[index]?.buyExchangeRate?.message}
               required
               placeholder="Buying exchange rate"
@@ -101,7 +101,7 @@ export function TradesForm() {
             <Input
               id={`trades.${index}.sellPrice`}
               label="Sell price"
-              type="number"
+              type="text"
               error={errors.trades?.[index]?.sellPrice?.message}
               required
               {...register(`trades.${index}.sellPrice`, {
@@ -112,7 +112,7 @@ export function TradesForm() {
             <Input
               id={`trades.${index}.sellExchangeRate`}
               label="Sell rate"
-              type="number"
+              type="text"
               error={errors.trades?.[index]?.sellExchangeRate?.message}
               required
               {...register(`trades.${index}.sellExchangeRate`, {

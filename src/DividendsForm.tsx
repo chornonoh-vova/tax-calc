@@ -72,7 +72,7 @@ export function DividendsForm() {
             <Input
               id={`dividends.${index}.payAmount`}
               label="Pay amount"
-              type="number"
+              type="text"
               error={errors.dividends?.[index]?.payAmount?.message}
               required
               {...register(`dividends.${index}.payAmount`, {
@@ -83,7 +83,7 @@ export function DividendsForm() {
             <Input
               id={`dividends.${index}.payExchangeRate`}
               label="Pay rate"
-              type="number"
+              type="text"
               error={errors.dividends?.[index]?.payExchangeRate?.message}
               required
               {...register(`dividends.${index}.payExchangeRate`, {
